@@ -98,7 +98,7 @@ public:
     
     int accept_client(int ls, client *desk, int *cur_desk)
     -Подключает пользователя к серверу и выдает номер сокета
-
+    
     int check_state()
     -Проверяет состояние клиента
     
@@ -173,9 +173,9 @@ class server
     int cur_chat; //текущее количество чатов на сервере
 public:
     int main_socket; //номер сокета сервера
-
+    
     int add_channel(channel *ch)
     -Добавляет канал на сервер
-
+    
     int get_socket()
     -Возвращает номер сокета сервера
